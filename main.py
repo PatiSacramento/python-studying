@@ -60,6 +60,21 @@ print(valor[3:])  # da posição 3 até o final
 print(valor[:3])  # da posição inicial até a posição 3
 """
 
+"""
+
+formatted string
+
+nome = "Patricia"
+sobrenome = "Rangel"
+profissao = "desenvolvedora"
+
+
+texto = nome + " " + sobrenome + " é uma excelente " + profissao
+texto_formatado = f'A {nome} {sobrenome} é uma excelente {profissao}'
+print(texto)
+print(texto_formatado)
+"""
+
 
 
 
