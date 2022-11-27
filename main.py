@@ -160,5 +160,21 @@ else:
     print("Dentro da velocidade permitida")
 """
 
+"""
+logical operators
+
+and - e
+or - ou
+
+renda_acima_5k = True
+
+nome_limpo = True
+
+if renda_acima_5k and nome_limpo:
+    print('Financiamento aprovado')
+else:
+    print('Financiamento não aprovado')
+"""
+
 
 
