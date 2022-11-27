@@ -129,7 +129,22 @@ print(num1 >= num2)
 print("oi" > "ola")
 """
 
+"""
+assignment operators
 
+x = 10
+# x = x + 5
+
+# x += 5
+# x -= 5
+# x *= 5
+# x /= 5
+# x **= 5
+# x %= 6
+
+
+print(x)
+"""
 
 
 
