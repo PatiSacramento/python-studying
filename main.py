@@ -1,4 +1,4 @@
-
+# Programação Python do Zero ao Avançado 2022 - Andre Iacono
 
 #  single line commenter
 
@@ -74,6 +74,22 @@ texto_formatado = f'A {nome} {sobrenome} é uma excelente {profissao}'
 print(texto)
 print(texto_formatado)
 """
+
+"""
+
+# string methods
+mensagem = ' eu adoro comida Caseira'
+
+print(mensagem.lower())
+print(mensagem.upper())
+print(mensagem.capitalize())  # primeira letra da string maiúscula
+print(mensagem.find('c'))
+print(mensagem.find('C'))  # python é case sensitive
+print(mensagem.replace('adoro', 'amo'))
+print(mensagem.strip())  # remove os espaços antes do primeiro caractere
+
+"""
+
 
 
 
