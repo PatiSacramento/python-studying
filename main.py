@@ -146,5 +146,19 @@ x = 10
 print(x)
 """
 
+"""
+conditional statements
+
+velocidade_carro = 100
+
+if velocidade_carro > 110:
+    print("Acima da velocidade permitida")
+    print('Favor reduzir a velocidade')
+elif velocidade_carro < 60:
+    print("Favor dirigir acima de 70km/h")
+else:
+    print("Dentro da velocidade permitida")
+"""
+
 
 
