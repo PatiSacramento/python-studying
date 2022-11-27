@@ -176,5 +176,14 @@ else:
     print('Financiamento não aprovado')
 """
 
+"""
+ternary operator
+
+idade = 15
+
+pode_votar = 'Voto permitido' if idade >= 16 else 'Voto não permitido'
+
+print(pode_votar)
+"""
 
 
