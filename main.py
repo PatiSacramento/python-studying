@@ -186,4 +186,16 @@ pode_votar = 'Voto permitido' if idade >= 16 else 'Voto não permitido'
 print(pode_votar)
 """
 
+"""
+Multiple Comparison Operators
+
+valor = 30
+
+if 20 <= valor < 40:
+    print('O produto foi aceito')
+else:
+    print('O produto não foi aceito')
+"""
+
+
 
