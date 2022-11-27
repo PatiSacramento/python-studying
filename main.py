@@ -90,6 +90,23 @@ print(mensagem.strip())  # remove os espaços antes do primeiro caractere
 
 """
 
+"""
+math operations
+
+soma = 2 + 2
+mult = 2 * 2
+div = 2 / 2
+sub = 2 - 2
+exp = 2 ** 2
+
+print(soma)
+print(mult)
+print(div)
+print(sub)
+print(exp)
+"""
+
+
 
 
 
