@@ -197,5 +197,73 @@ else:
     print('O produto não foi aceito')
 """
 
+"""
+-- for loops - numbers -- 
+
+for numero in range(1, 11, 1):  # start, stop, step
+    print(numero)
+    
+    
+    
+-- for loops - strings --
+
+palavra = "Javascript"
+for letra in palavra:
+    print(f' {letra} está dentro da palavra {palavra}')
+    
+    
+    
+-- for loops - of else -- 
+
+compra_confirmada = True
+dados_compra = 'Compra no valor de R$ 12.50 e entrega confirmada'
+
+for enviar in range(3):
+    if compra_confirmada:
+        print(dados_compra)
+        print('Detalhes enviados para o seu e-mail')
+        break
+    else:
+        print('Falha na compra')
+        
+        
+        
+        
+-- for loop - nested loops --
+
+for numero1 in range(5):
+    print(numero1)
+
+    for numero2 in range(numero1):
+        print(f' num2 {numero2}')
+        
+        
+        
+        
+-- for loop - separating strings --
+palavra = 'FANTASTICO'
+
+for space in palavra:
+    print(space, end=' ')
+    
+    
+    
+-- for loop - criando um quadrado -- 
+
+linhas = 6
+colunas = 6
+simbolo = '@'
+
+for line in range(linhas):
+    if line == 0 or line == 5:
+        for line in range(linhas):
+            print(simbolo, end=' ')
+    elif line == 1:
+        print()
+        print(f'{simbolo}         {simbolo}')
+    else:
+        print(f'{simbolo}         {simbolo}')
+"""
+
 
 
