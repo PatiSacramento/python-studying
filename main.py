@@ -266,4 +266,17 @@ for line in range(linhas):
 """
 
 
+"""
+While loop
+
+valor = 100
+dia = 1
+
+while valor > 20:
+    print(f' o patrão tá doido! Promoção exclusiva para o dia {dia}. Apenas R$ {valor}')
+    valor -= 5
+    dia += 1
+"""
+
+
 
