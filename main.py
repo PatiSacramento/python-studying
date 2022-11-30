@@ -278,5 +278,3 @@ while valor > 20:
     dia += 1
 """
 
-
-
