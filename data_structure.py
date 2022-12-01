@@ -40,5 +40,20 @@ itens = [['item1', 'item2'], ['item3', 'item4']]
 print(itens[1][0])
 """
 
+"""
+unpacking lists
+
+produtos = ['arroz', 'feijão', 'batata', 'chocolate']
+
+item1, *outros, item2 = produtos
+
+print(item1)
+print(item2)
+print(outros)
+"""
+
+
+
+
 
 
