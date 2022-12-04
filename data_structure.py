@@ -126,6 +126,30 @@ coresTuple.append('rosa') # não rola
 print(coresTuple)
 """
 
+"""
+Array - quando a lista é muito grande
+
+não é disponível por default no python. Tem que importar o módulo
+
+
+from array import array
+
+numeros = [1, 2, 3, 4, 5]
+letras = ['a', 'b', 'c', 'd']
+numerosFloat = [1.1, 2.3, 3.5, 4.7, 5.0]
+
+print(type(numeros))
+
+letras = array('u', ['a', 'b', 'c', 'd'])
+numeros = array('i', [1, 2, 3, 4, 5])
+numerosFloat = array('f', [1.1, 2.3, 3.5, 4.7, 5.0])
+
+print(letras)
+print(numeros)
+print(numerosFloat)
+"""
+
+
 
 
 
