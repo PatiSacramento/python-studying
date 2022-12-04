@@ -18,7 +18,6 @@ cidades.sort()
 print(cidades)
 """
 
-
 """
 concatenating lists
 
@@ -51,6 +50,60 @@ print(item1)
 print(item2)
 print(outros)
 """
+
+"""
+Loop and lists
+
+valores = [50, 80, 110, 150, 170]
+
+for x in valores:
+    print(f' o valor final do produto é de R${x}')
+
+"""
+
+"""
+looking for items in lists
+
+
+cor = input('Digite a cor desejada: ').lower()
+cores = ['amarelo', 'verde', 'azul', 'vermelho']
+
+if cor in cores:
+    print('sim')
+else:
+    print('nope')
+"""
+
+"""
+zip
+
+var = list('pati')
+print(var)
+
+cores = ['amarelo', 'verde', 'azul', 'vermelho']
+valores = [10, 20, 30, 40, 50]  # listas tem que ter o mesmo tamanho. No caso, o 50 não entrará
+
+duasListas = zip(cores, valores)
+
+print(list(duasListas))
+
+"""
+
+"""
+input and lists
+
+frutasUsuario = input('Digite o nome das frutas separados por vírgula: ')
+
+frutasLista = frutasUsuario.split(', ')
+
+print(frutasLista)
+"""
+
+
+
+
+
+
 
 
 
