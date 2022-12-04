@@ -99,11 +99,32 @@ frutasLista = frutasUsuario.split(', ')
 print(frutasLista)
 """
 
+"""
+tuple: 
+    armazenar mais de uma informação em variáveis, 
+    manter a sequência dos dados em uma variável,
+    não podem ser alteradas (immutable)
+    
+    listas utilizam um espaço maior na memória do que tuples
+    
+    
+coresLista = ['amarelo', 'verde', 'azul', 'vermelho']
+
+coresTuple = ('amarelo', 'verde', 'azul', 'vermelho')
 
 
+print(type(coresLista))
+print(type(coresTuple))
 
+print(coresLista * 2)
+print(coresTuple * 2)
 
+coresLista.append('rosa')
+print(coresLista)
 
+coresTuple.append('rosa') # não rola
+print(coresTuple)
+"""
 
 
 
